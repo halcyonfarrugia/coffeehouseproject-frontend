@@ -13,6 +13,7 @@
     "@fontsource/eb-garamond": "^4.5.11",
     "@fontsource/inter": "^4.5.15",
     "@fontsource/space-grotesk": "^4.5.13",
+    "@netlify/plugin-nextjs": "^4.31.0",
     "@react-google-maps/api": "^2.18.1",
     "@react-three/fiber": "^8.11.7",
     "eslint": "8.35.0",
