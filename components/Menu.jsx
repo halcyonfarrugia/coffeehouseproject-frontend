@@ -43,7 +43,7 @@ const Menu = () => {
                     <Box width="70%" textAlign="right">
                         <Text fontSize={{ base: '1.75rem', md: "3rem" }} fontWeight="700">Favorites Menu</Text>
                         <Hide below="md">
-                            <Text>Experience a Taste of Melbourne's Coffee Culture at Coffee House Project - Where Every Cup is Crafted For You.</Text>
+                            <Text>Experience a Taste of Melbourne&apos;s Coffee Culture at Coffee House Project - Where Every Cup is Crafted For You.</Text>
                         </Hide>
                     </Box>
                 </HStack>

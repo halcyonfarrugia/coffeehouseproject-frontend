@@ -61,7 +61,7 @@ const Home = () => {
           >
             <VStack width={{ base: "100%", md: "35%" }} spacing="1rem" align={{ base: "center", md: "start" }}>
               <Text fontSize={{ base: "1.5rem", lg: "2.5rem", xl: "3rem" }} fontWeight="600">Building Community, <br/> One Cup at a Time.</Text>
-              <Text fontWeight="500" fontSize={{ base: "0.8rem", xl: "1.25rem" }} display={{ base: "none", md: "block"}}>Awaken Your Senses with Melbourne's Finest Coffee Experience at Coffee House Project.</Text>
+              <Text fontWeight="500" fontSize={{ base: "0.8rem", xl: "1.25rem" }} display={{ base: "none", md: "block"}}>Awaken Your Senses with Melbourne&apos;s Finest Coffee Experience at Coffee House Project.</Text>
               <Button fontFamily="inter" color="white" bg="#F2850A" paddingX="2rem" _hover={{ bg: "#E17700"}}>
                 Browse
               </Button>
