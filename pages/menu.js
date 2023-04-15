@@ -39,12 +39,11 @@ export default () => {
         itemsAnimation.set((i) => ({ opacity: 0 }))
         setItems( e.target.value === 'espresso' ? espresso : brew )
         animateItems()
-        
     }
 
     useEffect(() => {
         animateItems()
-    }, [animateItems])
+    }, [items])
 
     return (
         <motion.main
