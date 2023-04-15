@@ -14,7 +14,7 @@ import Navbar from "@/components/Navbar";
 import { motion } from "framer-motion";
 import Head from "next/head";
 
-export default function Home() {
+const Home = () => {
   return (
       <motion.main
       >
@@ -91,3 +91,5 @@ export default function Home() {
       </motion.main>
   )
 }
+
+export default Home
