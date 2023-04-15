@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 import { useState } from "react"
 import Head from "next/head"
 
-export default () => {
+const ContactUs = () => {
     const [name, setName] = useState(null)
     const [email, setEmail] = useState(null)
     const [subject, setSubject] = useState(null)
@@ -121,3 +121,5 @@ export default () => {
         </motion.main>
     )
 }
+
+export default ContactUs

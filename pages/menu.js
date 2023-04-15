@@ -10,7 +10,7 @@ import { motion, useAnimation } from "framer-motion"
 import { useEffect, useState } from "react"
 import Head from "next/head"
 
-export default () => {
+const Menu = () => {
     const brew = [
         { title: "The Brownstone Blend", price: "4.50", description: "A smooth blend of dark and medium roast beans, perfect for an everyday cup of coffee" }, 
         { title: "The Bungalow Brew", price: "4.50", description: "A classic drip coffee made with freshly ground beans, served in a cozy mug" }, 
@@ -116,3 +116,5 @@ export default () => {
         </motion.main>
     )
 }
+
+export default Menu

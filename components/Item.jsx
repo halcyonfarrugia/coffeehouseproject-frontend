@@ -1,6 +1,6 @@
 import { Box, HStack, Text } from "@chakra-ui/react"
 
-export default ({ title, price, description }) => {
+export default Item = ({ title, price, description }) => {
     return (
         <Box width="100%" color="#433D3B" bg="#FFFFFF" borderRadius="1rem" padding="1rem">
             <HStack>
